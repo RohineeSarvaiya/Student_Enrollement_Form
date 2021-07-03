@@ -1,0 +1,164 @@
+.container{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+
+#header{
+    font-size:20px;
+    text-align: center;
+    background-color :turquoise;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding:5px;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+
+
+#footer{
+    margin-top: 0px;
+    font-size: 10px;
+    background-color :turquoise;
+    color: white;
+    padding:2px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: none;
+}
+
+
+#holder{
+    margin-bottom: 50px;
+}
+
+
+.form-control{
+    width: 200px;
+}
+
+
+#studentform .field{
+    width: 150px;
+}
+.selectionfield{
+    width: 200px; 
+    padding-left: 0px;
+}
+
+#studentdetailsform{
+    padding-left: 90px;
+    border-right: 3px solid turquoise;
+}
+#studentdetailsform div{
+    margin-bottom: 10px;
+}
+
+
+#buttons{
+    margin-top: 30px;
+}
+.btn-primary{
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+
+#studenttable{
+    margin-right: 50px;
+}
+
+#studentdetailsheading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+
+#displaytable{
+    margin-left: 40px ;
+}
+.table-bordered{
+    border-color: yellowgreen;
+}
+#scrolltable{
+    height:350px; 
+    overflow-y: scroll;
+}
+
+
+#tablehead tr{
+    background-color: yellowgreen;
+    color: white;
+    border-color: black;
+}
+#tablehead tr th{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#tabledescription{
+    width:260px;
+}
+#tableimage{
+    width:190px;
+}
+
+
+#tablebody  tr{
+    font-size: 15px;
+}
+#tablebody  tr:nth-child(even){
+    background-color: rgb(172, 196, 171);
+}
+#tablebody  tr:nth-child(odd){
+    background-color: white;
+}
+
+
+.fade-in{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.newstudentdescription {
+    margin-top:0px;
+    padding-top:0px ;
+    padding-right:50px; 
+    padding-left:5px;
+}
+
+.newstudentdescription label{
+    font-weight: bold;
+}
+
+.newstudentdescription a{
+    display:block;
+    width:200px;
+    word-wrap:break-word;
+}
+
+.newstudentimage{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:120px;
+    margin-bottom:10px;
+}

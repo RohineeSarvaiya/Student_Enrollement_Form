@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         
+        <link rel="stylesheet" type="text/css" href="bootstrap.css"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <title>Student Enrollment Form</title>
+    </head>
+   
+
+    <body>
+        <div class="container" >
+            <div  id="header">Student Enrollment Form</div>
+
+            <div id="holder" class="row">
+                    
+                <div id="studentdetailsform" class="col">
+                    <form id="studentform">
+                        <div class="row" >  
+                            <label class="field">Name</label>
+                            <input type="text" class="form-control" id="name" >
+                        </div>
+                        <div class=" row">
+                            <label class="field">Email</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <div class=" row">
+                            <label class="field">Website</label>
+                            <input type="url" id="website" class="form-control">
+                        </div>
+                        <div class="row">
+                            <label class="field">Image Link</label>
+                            <input type="url" id="imagelink" class="form-control" >
+                        </div>
+                        <div  class="row">
+                            <label class="field">Gender</label>
+                            <div class="selectionfield">
+                                <input type="radio" id="male" name="gender" >&nbsp;<label>Male</label><br>
+                                <input type="radio" id="female" name="gender" >&nbsp;<label>Female</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="field">Skills</label>
+                            <div class="selectionfield">
+                                <input type="checkbox" class="skill" id="java"  value="Java">&nbsp;<label>Java</label>&nbsp;&nbsp;
+                                <input type="checkbox" class="skill" id="html"  value="HTML">&nbsp;<label>HTML</label>&nbsp;&nbsp;
+                                <input type="checkbox" class="skill" id="css"  value="CSS">&nbsp;<label>CSS</label>
+                            </div>
+                        </div>
+                        <div id="buttons">
+                            <button type="submit" class="btn btn-primary" id="submit" Value="Enroll Student" >Enroll Student</button>
+                            <button type="button" class="btn btn-danger" id="clear" Value="Clear">Clear</button>
+                        </div>
+                    </form>
+                </div>
+                    
+                
+                <div id="studenttable" class="col" >
+                    <div id="studentdetailsheading"> Enrolled Students</div>
+                        <div id="scrolltable">
+                            <table id="displaytable" class="table-bordered .table-responsive">
+                                <thead id="tablehead">
+                                    <tr>
+                                        <th id="tabledescription">Description</th>
+                                        <th id="tableimage">Image</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tablebody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="container" id="footer">Copyright 2020-2021 by Fresher Training</div>
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+
+    
+</html>
